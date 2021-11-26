@@ -1,0 +1,22 @@
+{
+  "name": "soccer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljamel/PWA---Submission-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiljamel/PWA---Submission-2/issues"
+  },
+  "homepage": "https://github.com/emiljamel/PWA---Submission-2#readme",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
+}

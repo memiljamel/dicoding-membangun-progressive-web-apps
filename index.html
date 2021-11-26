@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="white" />
+  <meta name="description" content="A sample soccre app" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
+  <meta name="apple-mobile-web-app-title" content="Soccer App">
+  <title>Soccer App</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="apple-touch-icon" href="./images/icon-192x192.png" />
+  <link rel="shortcut icon" href="./images/icon-192x192.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/materialize.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+  
+  <header>
+    <nav role="navigation" class="light-blue darken-3">
+      <div class="container nav-wrapper">
+        <a href="#" class="brand-logo">Soccer</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#/standings">Peringkat Klub</a></li>
+          <li><a href="#/teams">Daftar Klub</a></li>
+          <li><a href="#/favorites">Favorite</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#/standings">Peringkat Klub</a></li>
+      <li><a href="#/teams">Daftar Klub</a></li>
+      <li><a href="#/favorites">Favorite</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="container" id="content"></div>
+  </main>
+
+  <script src="./scripts/libs/materialize.min.js"></script>
+  <script src="./scripts/libs/idb.js"></script>
+  <script src="./index.js" type="module"></script>
+
+</body>
+</html>
